@@ -1,0 +1,3 @@
+rawpy
+matplotlib
+numpy
