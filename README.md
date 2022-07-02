@@ -1,4 +1,4 @@
-## Goal: Convert .dng file into its into its red, green, and blue components.
+## Goal: Split .dng file into its into its red, green, and blue components.
 
 ![alt text](example_bayer_pattern.png)
 
