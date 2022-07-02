@@ -1,8 +1,7 @@
-import rawpy
+import numpy as np
 from matplotlib import pyplot as plt 
 
-fpath = 'test.dng'
+width, height = (3280, 2464)
 
-with rawpy.imread(fpath) as raw:
-  plt.imshow(raw.raw_image)
-  plt.show()
+fpath = 'test.dng'
+data = np.fromfile(fpath, dtype=np.uint8)
